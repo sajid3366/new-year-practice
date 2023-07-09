@@ -115,3 +115,51 @@
     background-repeat: no-repeat;
     
 }
+
+/* this is for footer section  */
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 100px 130px;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-info{
+    max-width: 600px;
+}
+.footer-image{
+    width: 20px;
+    height: 20px;
+}
+.footer h1 h3{
+    font-size: 45px;
+    font-weight: 700px;
+    margin-bottom: 20px;
+}
+.footer p{
+    margin: 16px 0px;
+}
+.form input{
+    display: block;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-top: 20px;
+    padding: 18px 24px;
+    background-color: black;
+    color: white;
+}
+.form input[type="text"]{
+    width: 70px;
+}
+.form input[type="submit"]{
+    font-size: 20px;
+    padding: 20px 30px;
+    background-color: #005FAC;
+    border: 0;
+}
