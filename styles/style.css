@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+/* shared section  */
+.btn-primary {
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 20px;
+
+
+}
+
+/* this is header section  */
+.banner-container {
+    padding: 216px 230px 264px 845px;
+    text-align: right;
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    color: white;
+    align-items: center;
+    width: 525px;
+
+
+
+}
+
+.banner-title {
+    height: 228px;
+    font-size: 65px;
+
+
+}
+
+.banner-description {
+
+    height: 78px;
+    line-height: 26px;
+    margin-top: 24px;
+}
+
+/* this is main section  */
+
+.failure-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 200px 20px 100px;
+    gap: 100px;
+    /* background-color: #efb6b6; */
+    margin: 20px 200px;
+}
+
+
+.failure-image {
+    width: 451px;
+    height: 498px;
+}
+.failure-title{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.failure-description{
+    margin-bottom: 20px;
+}
+.check{
+    display: inline-block;
+    margin-top: 5px;
+    line-height: 26px;
+}
+.failure img{
+    width: 24px;
+    height: 24px;
+    
+    
+
+}
+
+.plan-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px 30px;
+
+}
+.plan-container h3{
+    font-size: 25px;
+    margin: 20px 0px;
+}
+.plan-title{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin: 20px 0px 30px;
+}
